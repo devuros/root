@@ -22,3 +22,4 @@ Route::prefix('api')->group(function()
 	Route::apiResource('tags', 'TagsController')->only(['index', 'show']);
 
 });
+
